@@ -1,4 +1,4 @@
-"use client"
+
 
 import { useState, useRef, useEffect } from "react"
 import { PaperclipIcon, SendIcon } from "lucide-react"
