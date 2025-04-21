@@ -295,7 +295,6 @@ const AiChat = () => {
                     </div>
                 )}
 
-                {/* Message input area */}
                 <div className="border-t border-gray-200 p-3 bg-white">
                     <div className="flex items-center bg-gray-100 rounded-full px-4 py-3">
                         {/* <input
