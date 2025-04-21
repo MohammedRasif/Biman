@@ -31,6 +31,7 @@ import UserSignup from './component/Shared/UserSignup/UserSignup.jsx';
 import UserSingin from './component/Shared/UserSignin/UserSignin.jsx';
 import AllRecipes from './component/UsersDashboard/UserDashboardPages/AllRecipes/AllRecipes.jsx';
 import AiChat from './component/UsersDashboard/UserDashboardPages/AiChat/AiChat.jsx';
+import RecipesDettails from './component/UsersDashboard/UserDashboardPages/RecipesDettails/RecipesDettails.jsx';
 // import UserSingin from './component/Shared/UserSignin/UserSignin.jsx';
 
 
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
       {
         path:'ai_chat',
         element:<AiChat/>
+      },
+      {
+        path:'recipes_dettails',
+        element:<RecipesDettails/>
       }
       
      

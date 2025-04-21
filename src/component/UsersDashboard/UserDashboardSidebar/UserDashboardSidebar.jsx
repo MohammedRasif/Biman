@@ -2,12 +2,9 @@
 
 
 import { NavLink, useLocation } from "react-router-dom";
-import { Users } from "lucide-react";
-import { TbBrandWechat } from "react-icons/tb";
-import { MdOutlineDashboard } from "react-icons/md";
-import { IoMdNotificationsOutline } from "react-icons/io";
-import { IoReorderThreeOutline, IoSettingsOutline, IoWalletOutline } from "react-icons/io5";
-import { BiSupport } from "react-icons/bi";
+
+import { IoReorderThreeOutline, IoSettingsOutline} from "react-icons/io5";
+
 import login_img2 from '../../../assets/image/Admin_login_img.png';
 import { FaHeart, FaRegLightbulb } from "react-icons/fa";
 import { BsChatDotsFill } from "react-icons/bs";
@@ -17,7 +14,7 @@ import { useState } from "react";
 const UserDashboardSidebar = () => {
   const location = useLocation();
   const isProjectActive = location.pathname.startsWith('/dashboard/user_notifications');
-  const isDashboardActive = ["/dashboard", "/dashboard/buyer_order_create", "/dashboard/createBuyerOrder", "/dashboard/buyer_candidate_list"].includes(location.pathname);
+  const isDashboardActive = ["/dashboard", "/dashboard/recipes_dettails", "/dashboard/createBuyerOrder", "/dashboard/buyer_candidate_list"].includes(location.pathname);
 
   // State to control sidebar visibility on small devices
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);

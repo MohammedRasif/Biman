@@ -6,7 +6,7 @@ const UserDashboardLayout = () => {
   return (
     <div className="flex h-screen">
       {/* Sidebar */}
-      <div className=" h-full fixed transition-all duration-300 ease-in-out z-100 w-[240px]">
+      <div className=" h-full fixed transition-all duration-300 ease-in-out z-100 md:w-[240px]">
         <div className="h-full flex flex-col justify-between">
           {/* Sidebar Content */}
           <UserDashboardSidebar />
@@ -28,7 +28,7 @@ const UserDashboardLayout = () => {
         </div>
 
         {/* Outlet (Main Content) */}
-        <div className="h-full  mt-20 overflow-auto">
+        <div className="h-full  mt-20 overflow-auto ">
           <Outlet />
         </div>
       </div>
