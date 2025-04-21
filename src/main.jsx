@@ -30,8 +30,8 @@ import Admin_ConfirmPassword from './component/Shared/Admin_ConfirmPassword/Admi
 import UserSignup from './component/Shared/UserSignup/UserSignup.jsx';
 import UserSingin from './component/Shared/UserSignin/UserSignin.jsx';
 import AllRecipes from './component/UsersDashboard/UserDashboardPages/AllRecipes/AllRecipes.jsx';
-import AiChat from './component/UsersDashboard/UserDashboardPages/AiChat/AiChat.jsx';
 import RecipesDettails from './component/UsersDashboard/UserDashboardPages/RecipesDettails/RecipesDettails.jsx';
+import AiChat from './component/UsersDashboard/UserDashboardPages/AiChat/AiChat.jsx';
 // import UserSingin from './component/Shared/UserSignin/UserSignin.jsx';
 
 
